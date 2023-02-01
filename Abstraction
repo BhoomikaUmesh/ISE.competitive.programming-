@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+class A {
+public:
+    int gl, g2;
+
+public:
+    void val()
+    {
+        cout << "Enter Two values : "; cin >> gl >> g2;
+    }
+    void display()
+    {
+        cout << gl << " " << g2;
+        cout << endl;
+    }
+};
+
+int main()
+{
+    A S;
+    S.val();
+    S.display();
+}

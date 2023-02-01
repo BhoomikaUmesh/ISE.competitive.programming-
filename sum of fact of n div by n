@@ -1,0 +1,14 @@
+#include <stdio.h>
+void main()
+{
+     float i,n,sum=0,a;
+        printf("enter n");
+        scanf("%f",&n);
+        for(i=0;i<n;i++)
+        {
+            fact=fact*i;
+            sum=sum+(fact/i);
+           
+        }
+         printf("sum=%f",sum);
+}

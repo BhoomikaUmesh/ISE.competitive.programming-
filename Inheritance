@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+class FOOD {
+  public:
+    string A = "GOBI";
+    void SET() {
+      cout << "WOWWWW \n" ;
+    }
+};
+
+
+class EAT: public FOOD {
+  public:
+    string B = "ICECREAM";
+};
+
+int main() {
+  EAT S;
+  S.SET();
+  cout << S.A + " \n" + S.B;
+  return 0;
+}

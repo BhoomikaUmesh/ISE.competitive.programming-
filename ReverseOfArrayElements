@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a[20],n,i;
+    cout<<"enter the number of elements\n";
+    cin>>n;
+    cout<<"enter the elements\n";
+    for(i=0;i<n;i++)
+    {
+        cin>>a[i];
+    }
+    cout<<"array elements are\n";
+    for(i=0;i<n;i++)
+    {
+        cout<<a[i];
+    }
+    cout<<"the array elements in reverse are\n";
+    for(i=n;i>=0;i--)
+    {
+        cout<<a[i];
+    }
+
+    
